@@ -5,9 +5,9 @@
     <database>GOLDSGYM</database>
     <user>ICGAdmin</user>
   </bd>
-  <codvendedor>25</codvendedor>
-  <tipodoc>TIQUET</tipodoc>
-  <serie>001T</serie>
-  <numero>16</numero>
+  <codvendedor>1</codvendedor>
+  <tipodoc>FACVENTA</tipodoc>
+  <serie>VF1T</serie>
+  <numero>2</numero>
   <n>B</n>
 </docprinted>

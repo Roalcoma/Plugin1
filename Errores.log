@@ -646,3 +646,172 @@ java.lang.NullPointerException
 
 feb 04, 2022 9:41:11 AM plugin1.Util guardarError
 INFO: ********************************************************************************
+dic 19, 2025 12:25:48 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.RuntimeException: Uncompilable code - cannot find symbol
+  symbol:   variable ARTICULO_ENTRADAS
+  location: class plugin1.MainFrame
+	at plugin1.Factura.cargarDatosFactura(Factura.java:1)
+	at plugin1.MainFrame.<init>(MainFrame.java:60)
+	at plugin1.MainFrame.lambda$main$0(MainFrame.java:370)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 12:25:48 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 12:32:13 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at plugin1.Cliente.getFoto(Cliente.java:118)
+	at plugin1.MainFrame.<init>(MainFrame.java:86)
+	at plugin1.MainFrame.lambda$main$2(MainFrame.java:402)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 12:32:13 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 12:41:26 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.RuntimeException: Uncompilable code - cannot find symbol
+  symbol:   method getNombreProducto()
+  location: variable oFactura of type plugin1.Factura
+	at plugin1.MainFrame.<init>(MainFrame.java:1)
+	at plugin1.MainFrame.lambda$main$4(MainFrame.java:440)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 12:41:26 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 12:43:20 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at plugin1.Cliente.getFoto(Cliente.java:118)
+	at plugin1.MainFrame.<init>(MainFrame.java:94)
+	at plugin1.MainFrame.lambda$main$4(MainFrame.java:440)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 12:43:20 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 12:47:54 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at plugin1.Cliente.getFoto(Cliente.java:118)
+	at plugin1.MainFrame.<init>(MainFrame.java:94)
+	at plugin1.MainFrame.lambda$main$4(MainFrame.java:440)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 12:47:54 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 3:08:13 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at plugin1.Cliente.getFoto(Cliente.java:118)
+	at plugin1.MainFrame.<init>(MainFrame.java:94)
+	at plugin1.MainFrame.lambda$main$4(MainFrame.java:451)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 3:08:13 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
+dic 19, 2025 3:16:13 PM plugin1.Util guardarError
+GRAVE: null
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at plugin1.Cliente.getFoto(Cliente.java:118)
+	at plugin1.MainFrame.<init>(MainFrame.java:94)
+	at plugin1.MainFrame.lambda$main$4(MainFrame.java:455)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+dic 19, 2025 3:16:13 PM plugin1.Util guardarError
+INFORMACIÓN: ********************************************************************************
