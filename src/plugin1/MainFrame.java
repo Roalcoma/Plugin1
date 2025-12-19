@@ -131,7 +131,20 @@ public class MainFrame extends javax.swing.JFrame {
         // Calcular fecha fin
         Calendar cal = Calendar.getInstance();
         cal.setTime(fechaInicioDate);
-        cal.add(Calendar.DAY_OF_YEAR, diasComprados);
+
+        // --- LÓGICA DE MES CALENDARIO ---
+        if (diasComprados == 30) {
+            // Si el plan es de 30 días, sumamos 1 MES real (ej: 19 Dic -> 19 Ene)
+            cal.add(Calendar.MONTH, 1);
+        } else if (diasComprados == 365 || diasComprados == 360) {
+             // Opcional: Si es anual, sumamos 1 AÑO (ej: 19 Dic 2025 -> 19 Dic 2026)
+             cal.add(Calendar.YEAR, 1);
+        } else {
+            // Para cualquier otro caso (1 día, 7 días, etc.), sumamos los días exactos
+            cal.add(Calendar.DAY_OF_YEAR, diasComprados);
+        }
+        // --------------------------------
+        
         Date fechaFinDate = cal.getTime();
 
         // Crear Strings
@@ -148,12 +161,12 @@ public class MainFrame extends javax.swing.JFrame {
                 "<p><b>Plan:</b> %s</p>" +
                 "<hr>" +
                 "<p><b>Inicio:</b> %s</p>" +
-                "<p><b>Fin:</b> %s (%d días)</p>" +
+                "<p><b>Fin:</b> %s (Vence el mismo día)</p>" +
                 "<br><p>¿Desea activar la membresía?</p></body></html>", 
                 etiquetaSQLNombre.getText(),
                 etiquetaProducto.getText(),
                 fechaInicioStr, 
-                fechaFinStr, diasComprados);
+                fechaFinStr);
 
         int confirm = JOptionPane.showConfirmDialog(this, mensaje, "Confirmar", JOptionPane.YES_NO_OPTION, JOptionPane.PLAIN_MESSAGE);
         
@@ -174,12 +187,11 @@ public class MainFrame extends javax.swing.JFrame {
                     oFactura.actualizarFechaInicioGrupal(this, fechaInicioBD, fechaFinBD);
                 }
                 
-                // --- NUEVO: MENSAJE DE ÉXITO ---
+                // Mensaje de éxito
                 JOptionPane.showMessageDialog(this, 
                         "¡Proceso Exitoso!\n\nLa membresía ha sido activada y los datos actualizados.", 
                         "Operación Completada", 
                         JOptionPane.INFORMATION_MESSAGE);
-                // -------------------------------
                 
                 actualizarXML(); // Cierra la aplicación
                 
