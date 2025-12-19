@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docprinted>
+  <bd>
+    <server>LOCALHOST</server>
+    <database>GOLDSGYM</database>
+    <user>ICGAdmin</user>
+  </bd>
+  <codvendedor>25</codvendedor>
+  <tipodoc>TIQUET</tipodoc>
+  <serie>001T</serie>
+  <numero>16</numero>
+  <n>B</n>
+</docprinted>
